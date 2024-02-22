@@ -1,0 +1,8 @@
+<!-- insert_data.html -->
+<form method="post">
+    {% csrf_token %}
+    {{ form1.as_p }}
+    {{ form2.as_p }}
+    {{ form3.as_p }}
+    <button type="submit">Guardar</button>
+</form>
